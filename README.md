@@ -1,7 +1,7 @@
 # SpicedProjectsNora
 Some exemplary projects executed during the SpicedAcademy Bootcamp
 # My first Linear Regression model 
-its aim is to predict how many bikes are to be made available in order for the bike rental company to be prepared for rushhour Saturday.
+it's aim is to predict how many bikes are to be made available in order for the bike rental company to be prepared for rushhour Saturday.
 Data taken from a kaggle competition
 
 # The TimeSeries Projects
