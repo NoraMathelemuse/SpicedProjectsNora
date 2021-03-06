@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://ec2-3-120-205-205.eu-central-1.compute.amazonaws.com/question/8
+HostUrl=http://ec2-3-120-205-205.eu-central-1.compute.amazonaws.com/api/card/8/query/csv
