@@ -1,0 +1,85 @@
+Final Project- Questioning Safe Space Algorithms on Social Media Platform Instagram
+---What does the program do? (short description in plain language)------------
+GOAL: Display how organizations and people that protect, raise awareness and educate about human rights 
+for people subject to multiple discriminations are getting silenced (posts deleted, shadowbanned) 
+on instagram through algorithmic discrimination.
+
+This Program is designed to analyze whether the algorithm that is deployed by the Facebook Group to ensure a "safe space", 
+adds to the silencing of peoples voices who are facing multiple discrimination IRL.
+
+Hypothesis: 
+The algorithm that seeks to create  a safe space on Facebook Group owned social media Platforms, specifically Instagram,
+incorporates inherent biases towards groups that that face multiple discrimination Sexism, queer/trans/intersex imclusive Sex education, 
+Racism, cis-Genderdism and Ableism. 
+These Biases are somewhat visible in the Community Standards: For example Female nipples being seen as derogatory and banned, 
+topics of menstruation declared as fetishising.
+
+Null Hypothesis: The algorithm creates a safer space for all.
+
+Research Questions:
+How do social norms that are discriminatory translate into algorithmic discrimination?
+How many people who are doing human rights activism through educative or existential(aka showing that they exist) posting have received a “we have deleted this post due to our regulations”  and posted about it compared to the people that haven’t?
+Which hashtags are most likely to have been forcefully silenced?
+	
+
+
+Background information: 
+- Facebook Group Community Standards 
+- multiple people who I follow with my personal account posting about posts having been deleted 
+
+
+
+Workflow:
+Step 1: Identify the right APIs to receive the information wanted (Posts, Hashtags, Demographics of Users)
+Step 2: Get the APIs and Access Tokens
+Step 3: write a py file that requests the Data through using the APIs- see if it works 
+    DEBUG
+Step 4: Analyse Data and create first visualization---- CURRENT STATUS
+
+Step 5: write a Skeleton code for Pipeline
+    DEBUG
+Step 6: add a MongoDB container and connect it to the PY file so that all the Data is dumped into the MongoDB
+    DEBUG
+Step 7: write a py file that cleans, explores, analyses and plot the Data
+    DEBUG
+Step 8: rewrite the filter for etl so that postgresdb can properly connect to it as postgresdg exit on code 2
+Step 9: write a sql.script to display the questions in need of Research
+    DEBUG
+Step 10: create a Dashboard to display the analysis beautifully and properly labeled for presentation
+
+
+Requirments:
+- Text Editor of choice used VScode
+- Python
+- SQL
+- Instagram API KEYS and ACCESS TOKENS( Deep Social, IGAPI, Instagramy, Hashtagy)
+- Docker
+- MongoDB ACCESS
+- Postgress Access
+- Libraries used: 
+    - Pymongo
+    - requests
+    - time
+    - logging
+    - sqlalchemy
+    - scipy
+    - matplotlib
+    - pandas
+    - numpy
+
+
+
+Who owns it?
+
+Who to ask for more info? (contact information, links to base repos etc.)
+NoraMathelemuse/SpicedProjectsNora
+
+Links: 
+
+Scypy: https://docs.scipy.org/doc/scipy/reference/stats.html
+Facebook Group Community Standards: https://www.facebook.com/communitystandards/content_related_requests
+Instagram Community Guidelines:https://help.instagram.com/477434105621119
+Instagram Legal(Terms and Conditons): https://www.instagram.com/about/legal/terms/before-january-19-2013/
+JSON parser for testing: http://json.parser.online.fr
+Rapid API tutorial on how to get ACCESS : https://rapidapi.com/blog/instagram-api-python/
+Top Hashtags: https://top-hashtags.com/instagram/
